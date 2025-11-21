@@ -1,0 +1,51 @@
+#include ‹iostream›
+using namespace std;
+#define MAX_SIZE 100
+class Queue (
+int arr[MAX_SIZE];
+int front, rear;
+Queue () (
+front - -1;
+rear - -1;
+bool isEmpty() (
+return (front -- -1 || front > rear);
+bool isFull() {
+return (rear =- MAX_SIZE - 1);
+void enqueue (int x) {
+if (IsFul1()) (
+cout « "
+
+class Queue (
+void enqueue(int x) (
+return;
+if (front •= -1) front - 0;
+arr[++rear] - x;
+cout « x « " enqueued to queue\n";
+vold dequeue () {
+if (isEmpty()) {
+
+int main() {
+Queue 9;
+int choice, value;
+do {
+} while (choice I- 4);
+return e;
+}
+cout « "\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\nEnter choice: "; cin » choice; switch (choice) ( case 1:
+cout « "Enter value to enqueue: "; cin » value;
+enqueue (value);
+break;
+case 2:
+q.dequeue();
+break;
+case 3: q-display();
+break;
+case 4:
+cout « "Exiting... In";
+break;
+default:
+cout « "Invalid choice|n";
+}
+}while choice !=4);
+return 0;
+}
