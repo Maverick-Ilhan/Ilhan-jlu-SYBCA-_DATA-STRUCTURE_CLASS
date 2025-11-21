@@ -1,0 +1,11 @@
+#include <lostream›
+using namespace std;
+int main() {
+int arr[5];
+cout « "eter 5 numbers: ";
+for (int 1 - 0; 1 ‹ 5; 1++) { cin > arr[i];
+cout « "reversed array: "; 
+for (int 1 - 4; 1 >- 0; 1--) ( cout « arr[i] « " ";
+}
+return 0;
+}
